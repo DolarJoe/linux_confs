@@ -1,0 +1,22 @@
+# Format the prompt to fit on a single line
+# Default format puts character/time on newlines
+# format = """$directory$git_branch$git_status$python$tmux$time$character\n"""
+
+[time]
+disabled = false
+format = '[$time]($style) '
+time_format = "%R"          # Shows 24-hour HH:MM (e.g., 14:30)
+style = "bold yellow"
+
+
+# Make sure the prompt character stays on the same line
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[username]
+show_always = true
+
+[hostname]
+ssh_only = true
+disabled = false
