@@ -1,0 +1,15 @@
+{
+  "lastChangelogVersion": "0.84.4",
+  "defaultProvider": "E-infra",
+  "defaultModel": "kimi",
+  "theme": "dark-dimfences",
+  "hideThinkingBlock": false,
+  "defaultThinkingLevel": "high",
+  "packages": [
+    "npm:pi-web-access",
+    "npm:@juicesharp/rpiv-ask-user-question@2.4.0",
+    "git:github.com/edxeth/pi-ralph-loop"
+  ],
+  "followUpMode": "all",
+  "steeringMode": "all"
+}

@@ -1,0 +1,238 @@
+{
+  "providers": {
+    "E-infra": {
+      "baseUrl": "https://llm.ai.e-infra.cz/v1/",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "agentic",
+          "name": "Agentic",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "coder",
+          "name": "Coder",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "command-a",
+          "name": "Command A",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "deepseek",
+          "name": "Deepseek",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "deepseek-thinking",
+          "name": "Deepseek Thinking",
+          "input": [
+            "text"
+          ],
+          "reasoning": true,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "deepseek-v4-flash",
+          "name": "Deepseek V4 Flash",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "deepseek-v4-flash-thinking",
+          "name": "Deepseek V4 Flash Thinking",
+          "input": [
+            "text"
+          ],
+          "reasoning": true,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "gemma4",
+          "name": "Gemma4",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "glm",
+          "name": "GLM",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "glm-5",
+          "name": "GLM 5",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "glm-5.2",
+          "name": "GLM 5.2",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "glm-5.3",
+          "name": "GLM 5.3",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "gpt-oss-120b",
+          "name": "GPT Oss 120B",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 131072
+        },
+        {
+          "id": "kimi",
+          "name": "Kimi",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "kimi-k3",
+          "name": "Kimi K3",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 1048576
+        },
+        {
+          "id": "mini",
+          "name": "Mini",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 131072
+        },
+        {
+          "id": "mistral-medium-3.5",
+          "name": "Mistral Medium 3.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "nrp",
+          "name": "Nrp",
+          "input": [
+            "text"
+          ],
+          "reasoning": false,
+          "contextWindow": 131072
+        },
+        {
+          "id": "qwen3.5",
+          "name": "Qwen3.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "qwen3.5-122b",
+          "name": "Qwen3.5 122B",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "qwen3.5-int4",
+          "name": "Qwen3.5 Int4",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "qwen3.8-27b",
+          "name": "Qwen3.8 27B",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "qwen3.8-flash-next",
+          "name": "Qwen3.8 Flash Next",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": false,
+          "contextWindow": 262144
+        },
+        {
+          "id": "thinker",
+          "name": "Thinker",
+          "input": [
+            "text"
+          ],
+          "reasoning": true,
+          "contextWindow": 1048576
+        }
+      ]
+    }
+  }
+}
