@@ -7,7 +7,8 @@ REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$REPO"
 git ls-files -z | { grep -zv -e '^install\.sh$' -e '^README' || true; } | while IFS= read -r -d '' f; do
-    target="$HOME/$f"
+    rel="${f#*/}"  # strip package dir (tmux/.tmux.conf -> .tmux.conf)
+    target="$HOME/$rel"
     mkdir -p "$(dirname "$target")"
 
     if [ -L "$target" ] && [ "$(readlink "$target")" = "$REPO/$f" ]; then
