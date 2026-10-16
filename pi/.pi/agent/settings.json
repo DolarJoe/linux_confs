@@ -3,7 +3,7 @@
   "defaultProvider": "E-infra",
   "defaultModel": "kimi",
   "theme": "dark-dimfences",
-  "hideThinkingBlock": false,
+  "hideThinkingBlock": true,
   "defaultThinkingLevel": "high",
   "packages": [
     "npm:pi-web-access",
